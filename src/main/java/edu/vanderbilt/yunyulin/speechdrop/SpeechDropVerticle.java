@@ -18,7 +18,7 @@ public class SpeechDropVerticle extends AbstractVerticle {
     public void start() throws Exception {
         VERSION = Utils.readFileToString(vertx, "VERSION").trim();
         GIT_HASH = Utils.readFileToString(vertx, "COMMITHASH").trim();
-        
+
         /*
          * Instead of loading from a JSON file (-conf config.json),
          * build a config object from environment variables and defaults.
@@ -30,7 +30,7 @@ public class SpeechDropVerticle extends AbstractVerticle {
          *   "debugMediaDownloads": true,
          *   "purgeIntervalInSeconds": 5184000,
          *   "host": "127.0.0.1",
-         *   "port": 6901
+         *   "port": "8080"
          * }
          */
 
@@ -54,12 +54,12 @@ public class SpeechDropVerticle extends AbstractVerticle {
 
         // Use HOST env var or default to "127.0.0.1"
         String host = Optional.ofNullable(System.getenv("HOST"))
-            .orElse("127.0.0.1");
+            .orElse("0.0.0.0");
 
         // Use PORT env var or default to 6901
         int port = Optional.ofNullable(System.getenv("PORT"))
             .map(Integer::valueOf)
-            .orElse(6901);
+            .orElse(8080);
 
         // Build the config object
         JsonObject config = new JsonObject()
