@@ -12,7 +12,7 @@ const config = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'static/js/[name].[content-hash].js'
+        filename: 'static/js/[name].js'
     },
     module: {
         rules: [
@@ -49,7 +49,7 @@ const config = {
             minChunks: 2
         }),
         new ExtractTextPlugin({
-            filename: 'static/css/[name].[content-hash].css'
+            filename: 'static/css/[name].css'
         })
     ]
 };
