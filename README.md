@@ -3,6 +3,8 @@ SpeechDrop
 
 Fast, efficient, and secure document sharing for debate rounds.
 
+https://img.shields.io/badge/Fly.io-24175B.svg?style=for-the-badge&logo=flydotio&logoColor=white
+
 Screenshots
 -- 
 
