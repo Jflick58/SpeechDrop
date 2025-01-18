@@ -4,7 +4,7 @@
 
 SpeechDrop is a lightweight web application designed to simplify the process of sharing debate files (e.g., DOC, DOCX, ODT, PDF, TXT, RTF) in real time. It uses [Vert.x](https://vertx.io/) on the backend, [Vue.js](https://vuejs.org/) on the frontend, and leverages WebSockets (via Vert.x EventBus) for instant updates.
 
-*This is a community-driven project originally built by Yunyu Lin and extended by contributors. It was forked in January 2025 after the original repo appeared abandoned, and the domain began redirecting to a bakery*
+*This is a community-driven project [originally built by Yunyu Lin](https://github.com/yunyu/SpeechDrop) and extended by contributors. It was forked in January 2025 after the original repo appeared abandoned, and the domain began redirecting to a bakery.*
 
 ---
 
