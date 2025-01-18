@@ -6,6 +6,10 @@ SpeechDrop is a lightweight web application designed to simplify the process of 
 
 *This is a community-driven project [originally built by Yunyu Lin](https://github.com/yunyu/SpeechDrop) and extended by contributors. It was forked in January 2025 after the original repo appeared abandoned, and the domain began redirecting to a bakery.*
 
+![GitHub License](https://img.shields.io/github/license/Jflick58/speechdrop)
+![GitHub repo size](https://img.shields.io/github/repo-size/Jflick58/speechdrop)
+![GitHub deployments](https://img.shields.io/github/deployments/Jflick58/speechdrop/production)
+![fly.io](https://img.shields.io/badge/Fly.io-24175B.svg)
 ---
 
 ## Table of Contents
